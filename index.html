@@ -1,1 +1,172 @@
-Hi dude
+<html> 
+<head>
+<style>
+    body {
+        background-color:white;
+        color: BLACK;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 2;
+    }
+
+    .headerimage {
+        float:right;
+        margin: 10px 10px 75px 100px;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+    
+    h3 {
+        font-size: 25px;
+    }
+    h4{
+        color:white;
+        font-size: 25px;
+
+    }
+    table {
+        width: 40%;
+        border-collapse:collapse; 
+    }
+    
+    th {
+        background-color: #028607;
+        color:white;
+    }
+
+    tr:hover {
+        background-color: #f5f5f5
+    }
+
+    th,td{
+        padding:15px;
+        text-align: center;
+        font-size: 15px;
+        border-bottom: 1px solid black;
+    }
+
+    .flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  float:right;
+  margin: 10px 300px 25px 100px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side */
+.flip-box-front {
+  background-color:#028607
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: white;
+  color: rgb(4, 112, 31);
+  transform: rotateY(180deg);
+</style>
+</head>
+<body>
+
+    <p><img src="ncfc.jpg" alt="image" height=100px class="headerimage"> </p>
+    <h1>Elliott's Norwich City Updates</h1>
+
+<p><b> Welcome to my sports website - Here you can find the latest up to date sports information about Norwich City FC.</b></p>
+
+<p>Recently, Norwich have been promoted to the Premier Leauge, arguably the best in the world, with some of the best players, such as - </p>
+
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+        <h4>The yellows are on their 'Pre-season' tour</h4>
+      </div>
+      <div class="flip-box-back">
+      <h2><iframe width="300" height="200" src="https://www.youtube.com/embed/UtAhK9D8Zig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h2>
+
+      </div>
+    </div>
+  </div>
+
+<ol>
+<li>Mo Salah</li>
+<li>Kun Aguero</li>
+<li>David De Gea</li>
+<li>Kevin De Bruyne</li>
+</ol>
+Thats only to name some out of the 20 teams in which compete in this precigious leauge
+</p>
+<p><a href= "https://www.premierleague.com">Click here to find out more about the premier leauge</a></p>
+
+
+
+<h2>2018-2019 Results</h2>
+
+<table> 
+    <thead>
+        <tr>
+            <th>Year</th>
+            <th>Wins</th>
+            <th>Draws</th> 
+            <th>Losses</th>
+        </tr>
+    </thead>
+    <tr>
+        <td><b>2018-19</b></td>
+        <td>27</td>
+        <td>13</td> 
+        <td>6</td>
+    </tr>
+    <tr>
+            <td><b>2017-18</b></td>
+            <td>15</td>
+            <td>15</td> 
+            <td>16</td>
+        </tr>
+</table>
+      
+
+      
+</tr>
+<p>For the Canaries, this season has been exceptional, arguably one of the best, especially compared to previous results, which are showned down below -  Which all comes down to how hard they've work under the influence of the greatly respected man, Daniel Farke, Norwich's suceess generator</p>
+
+<h3>New signings for 2019-2020 season</h3>
+<p> <b>Ralph Fahrman - </b> The german showstopper from the bundesliga who's played 196 times for shalke and also the champions leauge, along side the best players in the world. Fahrman was signed by Daniel Farke as the goalkeeper, because of his great experience with the top leauges, and knows that he can handle whatever will come his way in the premier leauge</p>
+<p> <img src="ncfc2.jpg" alt="image" width= "300px"> </p>
+
+<p><b>Jospi Drimic - </b>Another bundesliga player joining Norwich in the next few seasons to come. The 26, has spent the last four seasons with German side Borussia Monchengladbach. Drmic has also played in the Champions League with Bayer Leverkusen. Which again, like fahrman, gains them indivdual experince which when put together, can make norwich a very strong team. Likewise to this, Drmic also has 32 caps for switerzland with 10 goals - Also representing them twice at the world cup.</p>
+<p> <img src="drimic.jpg" alt="image" width= "300px"> </p>
+
+
+
+</body>
+</html>
